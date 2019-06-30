@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F33DB56222C856E2006E7406 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33DB56122C856E2006E7406 /* ResultViewController.swift */; };
 		F37F7DD522C7B75A00A225EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F7DD422C7B75A00A225EA /* AppDelegate.swift */; };
 		F37F7DD722C7B75A00A225EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37F7DD622C7B75A00A225EA /* ViewController.swift */; };
 		F37F7DDA22C7B75A00A225EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DD822C7B75A00A225EA /* Main.storyboard */; };
 		F37F7DDC22C7B75E00A225EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DDB22C7B75E00A225EA /* Assets.xcassets */; };
 		F37F7DDF22C7B75E00A225EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DDD22C7B75E00A225EA /* LaunchScreen.storyboard */; };
+		F37F7DE722C7B79600A225EA /* pet_cat_hakai.png in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DE622C7B79500A225EA /* pet_cat_hakai.png */; };
+		F37F7DE922C7B7A600A225EA /* pet_cat_omoi_sleep_man.png in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DE822C7B7A600A225EA /* pet_cat_omoi_sleep_man.png */; };
+		F37F7DEB22C7B7B400A225EA /* pet_cat_thirsty.png in Resources */ = {isa = PBXBuildFile; fileRef = F37F7DEA22C7B7B400A225EA /* pet_cat_thirsty.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F33DB56122C856E2006E7406 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		F37F7DD122C7B75A00A225EA /* SlideShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37F7DD422C7B75A00A225EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F37F7DD622C7B75A00A225EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		F37F7DDB22C7B75E00A225EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F37F7DDE22C7B75E00A225EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F37F7DE022C7B75E00A225EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37F7DE622C7B79500A225EA /* pet_cat_hakai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_cat_hakai.png; sourceTree = "<group>"; };
+		F37F7DE822C7B7A600A225EA /* pet_cat_omoi_sleep_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_cat_omoi_sleep_man.png; sourceTree = "<group>"; };
+		F37F7DEA22C7B7B400A225EA /* pet_cat_thirsty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_cat_thirsty.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				F37F7DD422C7B75A00A225EA /* AppDelegate.swift */,
 				F37F7DD622C7B75A00A225EA /* ViewController.swift */,
+				F33DB56122C856E2006E7406 /* ResultViewController.swift */,
 				F37F7DD822C7B75A00A225EA /* Main.storyboard */,
+				F37F7DE622C7B79500A225EA /* pet_cat_hakai.png */,
+				F37F7DE822C7B7A600A225EA /* pet_cat_omoi_sleep_man.png */,
+				F37F7DEA22C7B7B400A225EA /* pet_cat_thirsty.png */,
 				F37F7DDB22C7B75E00A225EA /* Assets.xcassets */,
 				F37F7DDD22C7B75E00A225EA /* LaunchScreen.storyboard */,
 				F37F7DE022C7B75E00A225EA /* Info.plist */,
@@ -123,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F37F7DDF22C7B75E00A225EA /* LaunchScreen.storyboard in Resources */,
+				F37F7DE922C7B7A600A225EA /* pet_cat_omoi_sleep_man.png in Resources */,
+				F37F7DE722C7B79600A225EA /* pet_cat_hakai.png in Resources */,
 				F37F7DDC22C7B75E00A225EA /* Assets.xcassets in Resources */,
+				F37F7DEB22C7B7B400A225EA /* pet_cat_thirsty.png in Resources */,
 				F37F7DDA22C7B75A00A225EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +152,7 @@
 			files = (
 				F37F7DD722C7B75A00A225EA /* ViewController.swift in Sources */,
 				F37F7DD522C7B75A00A225EA /* AppDelegate.swift in Sources */,
+				F33DB56222C856E2006E7406 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
